@@ -3,4 +3,4 @@
 
 SELECT SUM(Total) as Total_Sales_2011
 FROM Invoice
-WHERE InvoiceDate Like "%2011%";
+WHERE InvoiceDate Like "%2011-%";
